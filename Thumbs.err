@@ -1,0 +1,10 @@
+/COM,ANSYS RELEASE 14.0    UP20111024       11:55:33    08/13/2013
+
+ *** ERROR ***                           CP =       0.905   TIME= 11:55:35
+ Data file \\puffball.labs.eait.uq.edu.au\s4307142\Desktop\RunSpyRun\Thum
+ bs.db has incorrect format, is missing READ/WRITE permission, or is     
+ empty for RESUME.                                                       
+
+ *** WARNING ***                         CP =       0.905   TIME= 11:55:36
+ WHILE PROCESSING FILE BASED INPUT (/INPUT OR MACRO) AN ERROR HAS        
+ OCCURRED.  SHOULD INPUT PROCESSING BE SUSPENDED?                        

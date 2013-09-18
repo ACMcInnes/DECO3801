@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reg_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Registration" >
+
+    <ImageView
+        android:id="@+id/newagent_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/newagent_logo"
+        android:paddingBottom="30dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/newagent" />
+
+    <RelativeLayout
+        android:id="@+id/reg_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newagent_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/logoutbox"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/id_title_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="@string/id_title"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/id_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_title_reg"
+            android:background="@drawable/loginff"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingBottom="4dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/pass_title_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_reg"
+            android:paddingBottom="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/pass_title"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/pass_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pass_title_reg"
+            android:background="@drawable/loginff"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/conf_title_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pass_reg"
+            android:paddingBottom="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/conf_title"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/conf_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conf_title_reg"
+            android:background="@drawable/loginff"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/email_title_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conf_reg"
+            android:paddingBottom="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/email_title"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_title_reg"
+            android:background="@drawable/loginff"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/reg_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_reg"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundedbutton_select"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/send_text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/reg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_button"
+            android:text="@string/reg_succes"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

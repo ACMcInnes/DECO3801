@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RunSpyRun</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="defend">Make a course</string>
+    <string name="attack">Play a course</string>
+    <string name="title_activity_attack">Run Spy Run - Attack</string>
+    <string name="title_activity_defend">Run Spy Run - Make Course</string>
+    <string name="id_title">Identification</string>
+    <string name="pass_title">Password</string>
+    <string name="login_text">Login</string>
+    <string name="newrecruit_text">New Recruit?</string>
+    <string name="reg_text">Register</string>
+    <string name="app_logo">Run Spy Run</string>
+    <string name="logout_text">Logout</string>
+    <string name="findgame_title">Find Game</string>
+    <string name="quickattack_title">Quick Attack</string>
+    <string name="profile_text">Profile</string>
+    <string name="ranking_text">Ranking</string>
+    <string name="setting_text">Setting</string>
+    <string name="credit_text">Credit</string>
+    <string name="gameplay_text">Gameplay</string>
+    <string name="conf_title">Confirm Password</string>
+    <string name="email_title">Email</string>
+    <string name="send_text">Send</string>
+    <string name="reg_succes">Information encrypted.. \nRequest Successful</string>
+    <string name="newagent_logo">New Agent Registration</string>
+    <string name="music_text">Music</string>
+    <string name="sfx_text">Sfx</string>
+</resources>
